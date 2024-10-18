@@ -1,0 +1,26 @@
+{
+    "meta": {
+      "clients": {
+        "fedes": {
+          "facebook": {
+            "access_token": "EAAHtT6S1EPIBO9c7DLr4ogFyofpDe8bHdw4AGcFm7CZCNghd3YFGaOhPHyAl2AAekhyzo6Xp8utFpMGqUDODo7rZBZAYMTccDmZAmMqgZBdYqNdAPgOM5Rq1BnC61begcAoGZBdvwZAaPJBkCuZBWXkyUuOw6Pr7RRbM2qpzJrwzoQKMZBDo3t7AQiyYMJZAP8",
+            "account_id": "101059805716105"
+          },
+          "instagram": {
+            "access_token": "EAAHtT6S1EPIBO9c7DLr4ogFyofpDe8bHdw4AGcFm7CZCNghd3YFGaOhPHyAl2AAekhyzo6Xp8utFpMGqUDODo7rZBZAYMTccDmZAmMqgZBdYqNdAPgOM5Rq1BnC61begcAoGZBdvwZAaPJBkCuZBWXkyUuOw6Pr7RRbM2qpzJrwzoQKMZBDo3t7AQiyYMJZAP8",
+            "account_id": "17841408240101104"
+          }
+        },
+        "kronen": {
+          "facebook": {
+            "access_token": "EAAF8WF6CZBPABO7FfRaTNrl2xh2NOHjyRbvkTiILkpZB41LwzZAwRIG0Bx4EKdf7VBBLjayRSdrXkZBrfF6HljannF4hBSUBsuFqA9GlTsenL39rPD6ntRtwSWHqGdhGxakXAphR3ZA79KC7ZBevVD3HF7sT974cTiLGYCK7E4obWwoIu8jNU4SiZCv5Ecl",
+            "account_id": "279881372086124"
+          },
+          "instagram": {
+            "access_token": "EAAHtT6S1EPIBO9c7DLr4ogFyofpDe8bHdw4AGcFm7CZCNghd3YFGaOhPHyAl2AAekhyzo6Xp8utFpMGqUDODo7rZBZAYMTccDmZAmMqgZBdYqNdAPgOM5Rq1BnC61begcAoGZBdvwZAaPJBkCuZBWXkyUuOw6Pr7RRbM2qpzJrwzoQKMZBDo3t7AQiyYMJZAP8",
+            "account_id": "17841402657554474"
+          }
+        }
+      }
+    }
+  }

@@ -11,7 +11,6 @@ module.exports = {
     "google",
   ],
   rules: {
-    "camelcase": ["error", { "properties": "never" }],
     "no-restricted-globals": ["error", "name", "length"],
     "prefer-arrow-callback": "error",
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
