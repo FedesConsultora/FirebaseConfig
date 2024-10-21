@@ -1,0 +1,31 @@
+steps:
+  # Paso 1: Instalar Firebase CLI
+  - name: 'node:18'  # Asegúrate de que coincide con la versión de Node.js en tu proyecto
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        npm install -g firebase-tools
+
+  # Paso 2: Navegar a la carpeta de funciones e instalar dependencias
+  - name: 'node:18'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        cd functions
+        npm install
+
+  # Paso 3: Desplegar funciones de Firebase
+  - name: 'node:18'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        firebase deploy --only functions --token "$FIREBASE_TOKEN"
+
+# Opcional: Definir artefactos si es necesario
+# artifacts:
+#   objects:
+#     location: 'gs://your-bucket-name/'
+#     paths: ['functions/**']
